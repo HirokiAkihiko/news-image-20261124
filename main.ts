@@ -223,7 +223,8 @@ disc(138, 204, 26, SKY);
 rect(48, 470, 560, 80, INK);
 drawText(64, 482, "SHENZHOU-24 LIFTS OFF", 4, GOLD);
 drawText(64, 518, "FIRST PAKISTANI ASTRONAUT TO TIANGONG", 2, WHITE);
-drawText(500, 178, "CHINA + PAKISTAN CREW OF 3", 2, CREAM);
+drawText(176, 178, "TIANGONG STATION", 2, CREAM);
+drawText(176, 206, "CREW OF 3 ABOARD", 2, GOLD);
 
 // ---- three story panels in the middle row ----
 function panel(x: number, y: number, w: number, accent: Rgb, lines: string[], foot: string): void {
